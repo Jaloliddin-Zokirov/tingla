@@ -556,7 +556,7 @@ img {
 
 @media only screen and (max-width: 576px) {
   .hero {
-    padding: 416px 0 57px;
+    padding: 432px 0 57px;
     margin-bottom: 77px;
   }
   .hero::before {
@@ -568,6 +568,23 @@ img {
   }
   .hero::after {
     display: none;
+  }
+  .hero__box::before {
+    top: -40px;
+    left: 0;
+    width: 195px;
+    height: 195px;
+    background: #FCBD2C;
+    opacity: 0.2;
+    filter: blur(100px);
+    background-size: 195px;
+  }
+  .hero__content::before {
+    top: -170px;
+    right: calc(50% + 160px);
+    width: 58px;
+    height: 58px;
+    background-size: 58px;
   }
   .hero__content::after {
     width: 49px;
