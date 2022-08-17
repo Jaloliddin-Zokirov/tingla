@@ -1,0 +1,38 @@
+.movie{
+  margin-bottom: 146px;
+}
+
+.movie__box{
+  position: relative;
+  &::before{
+    position: absolute;
+    width: 1155px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url("../images/movie-bgi-2.png");
+    background-repeat: no-repeat;
+    background-size: 1155px 500px;
+    background-position: center;
+    content: "";
+  }
+  &::after{
+    position: absolute;
+    top: 215px;
+    left: calc(50% - 36px);
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background-image: url("../images/movie-play.svg");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+    content: "";
+  }
+
+}
+
+.movie__img{
+  width: 1200px;
+  height: 500px;
+  border-radius: 20px;
+}

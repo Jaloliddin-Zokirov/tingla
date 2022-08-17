@@ -1,0 +1,56 @@
+.payment{
+  margin-bottom: 240px;
+}
+
+.payment__box{
+  position: relative;
+  padding: 109px 61px;
+  background-color: #F9E0C7;
+  border-radius: 20px;
+  &::before{
+    position: absolute;
+    top: -230px;
+    right: 82px;
+    width: 412px;
+    height: 791px;
+    background-image: url("../images/payment-bgi.png");
+    background-repeat: no-repeat;
+    background-size: 412px 791px;
+    background-position: center;
+    content: "";
+  }
+  &::after{
+    position: absolute;
+    bottom: -160px;
+    right: 60px;
+    width: 88px;
+    height: 88px;
+    background-image: url("../images/hero-bgi-3.svg");
+    background-repeat: no-repeat;
+    background-size: 88px;
+    background-position: center;
+    content: "";
+  }
+}
+
+.payment__content{
+  width: 100%;
+  max-width: 570px;
+}
+
+.payment__title{
+  margin: 0 0 30px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.payment__text{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+}
