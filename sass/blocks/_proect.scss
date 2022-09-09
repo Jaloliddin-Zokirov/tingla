@@ -56,3 +56,16 @@
   line-height: 34px;
   color: #FFFFFF;
 }
+
+
+// @media only screen and (max-width: 576px){
+//   .proect{
+//     &::before{
+//       top: -50px;
+//       right: calc(50% + 30px);
+//       width: 73px;
+//       height: 73px;
+//       background-size: 73px;
+//     }
+//   }
+// }
